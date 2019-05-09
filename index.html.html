@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Day 8.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Hangman Challenge</title>
+    </head>
+    <body>
+        <h1>Hangman Challenge</h1>
+    <div class="hangman">
+        <img class="ori" src="http://www.playhangman.com/images/hang_7.gif" alt="" srcset="">
+       
+    </div>
+            
+
+<div id="homepage">
+    <button onclick="easy()">Easy</button>
+    <button onclick="normal()">Normal</button>
+    <button onclick="hard()">Hard</button>
+</div>
+<div id="lives"></div>
+<div class="w3-container" style="width:50vw;height:20vh;border:5px solid grey">
+    <div class="challengebank">
+        
+    </div>
+</div>
+
+<form name="myForm" onsubmit="checkWord(event)" >
+        Guess: <input id="value" type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <script src="./Day 8.js"></script>
+</body>
+</html>
+
